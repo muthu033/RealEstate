@@ -1,1 +1,15 @@
 some changes
+PORT=5006
+DB=mongodb+srv://admin:admin@cluster0.rhnrd.mongodb.net/
+ACCESS_TOKEN=esdrtfyguuhioilukyjuthdfghjkjnkml
+STRIPE_SECRET_KEY=sk_test_51QI1OxKpk9b5SMK2VKelu352ovsMKTcCnZCfdNgAPmb0Wxn8fdKfHumM29L9V2FGwRoeoqZFR062xPrGn2YRPfzy00Mxhzdi4T
+
+EMAIL_USER=muthukumar2025@gmail.com
+EMAIL_PASS=ffvd vbcr emry tbaw
+RESET_TOKEN_SECRET=gyhjkhuhjiijijhiomjimomu8y898guh98yh89hy98u
+
+
+TWILIO_ACCOUNT_SID=AC00e35a38229663e7fcfb8c3722e51f39
+
+TWILIO_AUTH_TOKEN=94b6e7f1d090b32be04a39e4af71b531
+
