@@ -1,0 +1,92 @@
+.property-form-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 800px;
+  
+  top:50px;
+  
+  margin-bottom: 220px;
+}
+
+.property-form h3 {
+  color: #2c3e50;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.property-form .section-title {
+  color: #2980b9;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 15px;
+}
+
+.property-form .form-group label {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.property-form .form-control {
+  border-radius: 5px;
+  border: 1px solid #bdc3c7;
+  padding: 10px;
+}
+
+.property-form .form-control:focus {
+  border-color: #2980b9;
+  box-shadow: 0px 0px 5px rgba(41, 128, 185, 0.5);
+}
+
+.property-form .submit-button {
+  background-color: #2980b9;
+  border-color: #2980b9;
+  font-weight: 700;
+  padding: 12px;
+}
+
+.property-form .submit-button:hover {
+  background-color: #1c6692;
+  border-color: #1c6692;
+}
+
+.preview-container {
+  margin-top: 10px;
+}
+
+.preview-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.preview-video {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-preview, .video-preview {
+  margin-top: 10px;
+}
+
+.submit-button {
+  background-color: #28a745;
+  border-color: #28a745;
+  font-size: 16px;
+}
+
+.property-form-card {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.submit-button {
+  background-color: #007bff;
+  border: none;
+}

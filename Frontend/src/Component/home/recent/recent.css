@@ -1,0 +1,89 @@
+.recent .text {
+  padding: 20px;
+}
+
+.recent .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.recent .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+
+.recent p {
+  color:black;
+}
+
+.recent .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}
+
+.img {
+  height: 250px;
+  width: 100%; /* Make image width responsive */
+  object-fit: cover; /* Keeps image ratio while covering the container */
+}
+
+.btn2 {
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #25b579;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: #FF6922;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 1024px) {
+  .content.grid3 {
+    grid-template-columns: 1fr 1fr; /* Show 2 columns on medium screens */
+    gap: 20px;
+  }
+
+  .img {
+    height: 200px; /* Adjust image height for medium screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content.grid3 {
+    grid-template-columns: 1fr; /* Show 1 column on small screens */
+    gap: 15px;
+  }
+
+  .recent .text {
+    padding: 15px;
+  }
+
+  .btn2 {
+    width: 100%; /* Full-width button on small screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .recent .text {
+    padding: 10px;
+  }
+
+  .img {
+    height: 150px; /* Reduce image height on mobile */
+  }
+
+  .btn2 {
+    font-size: 14px; /* Reduce button font size on small screens */
+  }
+}

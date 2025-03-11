@@ -1,0 +1,159 @@
+.about {
+    margin-bottom: 80px;
+  }
+  .about .heading {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about p {
+    font-size: 15px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    .about .container {
+      flex-direction: column;
+    }
+    .about p {
+      padding: 0;
+    }
+    .about .container img {
+      margin-top: 50px;
+    }
+  }
+  .carr{
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+
+
+
+
+  .property-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-top: 50px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .tag {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  
+  .property-info {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 35px 0;
+    display: grid;
+    gap: 10px;
+  }
+  
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .info-row span {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  .about-property {
+    margin-top: 15px;
+  }
+  
+  .about-property h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about-property p {
+    font-size: 18px;
+  }
+  
+
+
+
+
+
+  .property-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 80px;
+    padding-left: 100px;
+  }
+  
+  .property-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .property-item i {
+    font-size: 24px;
+    color: #29d9c2;
+    margin-top: 5px;
+  }
+  
+  .property-item h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .property-item p {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .property-item small {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .unit {
+    color: #29d9c2;
+  }
+
+  .for-rent-badge {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff6e6; 
+    color: #ff9900;            
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+   margin-left: 580px;
+
+  }
+
+
+  
+  
+  

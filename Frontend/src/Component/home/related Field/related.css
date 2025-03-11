@@ -1,0 +1,45 @@
+.c-box-container {
+    width: 100%;
+    border-radius: 55px;
+}
+
+.c-box-title {
+    margin-left: 10%;
+}
+
+.c-box-heading {
+    margin-left: 5%;
+    padding-top: 10px;
+}
+
+.c-box-paragraph {
+    margin-left: 6%;
+    padding-top: 15px;
+    color: white;
+}
+
+.c-box-link {
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.c-box-list {
+    margin-left: 50%;
+}
+
+.c-box-item {
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .c-box-container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .c-box-title, .c-box-heading, .c-box-paragraph, .c-box-link, .c-box-list {
+        margin-left: 0;
+        text-align: center;
+    }
+}

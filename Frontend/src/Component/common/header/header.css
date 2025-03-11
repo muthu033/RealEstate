@@ -1,0 +1,129 @@
+/* Style the main container to match Navbar styles */
+header {
+  position: fixed;
+  width: 95%;
+  top: 20px;
+  left: 2%;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 13px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 99999;
+}
+
+/* Container styling to center logo, nav, and button */
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Logo styling */
+.logo img {
+  height: 100px;
+  width: auto;
+  cursor: pointer;
+}
+
+/* Nav menu styles */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  display: inline-block;
+}
+
+.nav ul li a:hover {
+  background-color: #01959a;
+  color: white;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+}
+
+/* Toggle button for mobile view */
+.toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.toggle i {
+  color: black;
+}
+
+/* Sign In button styling */
+.button .btnn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+  background-color: #01959a;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.button .btnn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 850px) {
+  .nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 80px 0 30px;
+    opacity: 0;
+    border-radius: 13px;
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+  }
+
+  .nav ul.small {
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .button {
+    display: none;
+  }
+}

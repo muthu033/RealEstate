@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.c-payment-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.c-payment-card {
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.c-payment-heading {
+  color: #07a291db;
+}
+
+.c-payment-input.form-control {
+  margin-bottom: 20px;
+}
+
+.c-payment-btn.btn-primary {
+  background-color: #07a291db;
+  border-color: #07a291db;
+  font-size: 19px;
+}
+.c-category-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+.c-category-heading {
+  font-weight: bold;
+}
+.c-category-list .list-group-item {
+  font-size: 1rem;
+  color: #495057;
+}
+

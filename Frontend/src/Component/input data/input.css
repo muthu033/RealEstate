@@ -1,0 +1,166 @@
+/* FileUploader.css */
+/* body{
+    background-image: url("../../../public/Apart12.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    
+} */
+ body{
+    background-color:#f3f6ff;
+ }
+.file-uploader {
+    max-width: 600px; 
+    height: 470px;
+    bottom: 100px;
+    
+    
+    /* opacity: 80%; */
+
+  }
+  
+  .file-extension {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  
+  .file-upload-box {
+    border: 2px dashed #b1add4;
+    transition: all 0.2s ease;
+  }
+  
+  .file-upload-box:hover {
+    background-color: #f3f6ff;
+  }
+  
+  .file-list {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  .file-uploader {
+    max-width: 600px;
+    margin-top: 125px;
+    margin-left: 450px;
+    width: 68%;
+  }
+  
+  .file-extension {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  
+  .file-upload-box {
+    border: 2px dashed #b1add4;
+    transition: all 0.2s ease;
+  }
+  
+  .file-upload-box:hover {
+    background-color: #f3f6ff;
+  }
+  
+  .file-list {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .file-uploader {
+    max-width: 600px;
+  }
+  
+  .file-extension {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  
+  .file-upload-box {
+    border: 2px dashed #b1add4;
+    transition: all 0.2s ease;
+  }
+  
+  .file-upload-box:hover {
+    background-color: #f3f6ff;
+  }
+  
+  .file-list {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+
+
+  
+  /* Style for delete and cancel buttons */
+  .file-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cancel-button,
+  .delete-button {
+    background: none;
+    border: none;
+    color: #e3413f; /* Red color for cancel/delete buttons */
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.2s ease;
+    padding: 14px;
+  }
+  
+  .cancel-button:hover,
+  .delete-button:hover {
+    color: #c23531; /* Darker red on hover */
+  }
+  
+  /* Optional icon size adjustment */
+  .cancel-button i,
+  .delete-button i {
+    font-size: 1.2rem;
+  }
+
+  .cancel-button{
+    gap: 10px;
+  }
+
+#butons{
+    top: 50px;
+    margin-left: 45%;
+    transition: background-color 0.3s ease;
+    align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color:black;
+    
+  
+}
+#butons:hover{
+    background-color:#27ae60;
+}
+
+ 
+  
+  

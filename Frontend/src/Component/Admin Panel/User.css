@@ -1,0 +1,33 @@
+/* Apply border radius to the table */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  /* Apply borders to make sure edges align with radius */
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 20px; /* or your preferred color */
+  }
+  
+  /* Optional: Remove the top-left and top-right borders on the first row */
+  .table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+  }
+  .table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  /* Optional: Remove the bottom-left and bottom-right borders on the last row */
+  .table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  .table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+  .table{
+    
+  }

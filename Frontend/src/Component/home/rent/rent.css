@@ -1,0 +1,116 @@
+.rental-homes-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+.image-container {
+    flex: 1;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center; /* Center the image on smaller screens */
+}
+
+.rental-image {
+    width: 70%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.content-container {
+    flex: 1;
+    padding-left: 20px;
+    text-align: left; /* Left-align text by default */
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.explore-button {
+    padding: 10px 20px;
+    background-color: #27AE60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.explore-button:hover {
+    background-color: #FF6922;
+}
+
+.content-container h3 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* Responsive styling for tablets */
+@media (max-width: 768px) {
+    .rental-homes-section {
+        flex-direction: column; /* Stack image and content vertically */
+        padding: 15px;
+    }
+
+    .rental-image {
+        width: 80%; /* Slightly smaller image on tablets */
+        margin: 0; /* Center image */
+    }
+
+    .content-container {
+        padding-left: 0; /* Remove extra padding on smaller screens */
+        text-align: center; /* Center-align text for better readability */
+    }
+
+    .content-container h3 {
+        font-size: 26px;
+    }
+
+    .description {
+        font-size: 15px; /* Slightly smaller text */
+    }
+
+    .explore-button {
+        font-size: 15px;
+    }
+}
+
+/* Responsive styling for mobile devices */
+@media (max-width: 480px) {
+    .rental-homes-section {
+        padding: 10px;
+    }
+
+    .rental-image {
+        width: 100%; /* Full-width image on mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .content-container h2 {
+        font-size: 22px; /* Reduce heading size on mobile */
+    }
+
+    .content-container h3 {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .explore-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
